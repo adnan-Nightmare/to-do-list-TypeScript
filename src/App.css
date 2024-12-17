@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title{
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.content > ul {
+    width: 33rem;
+    height: 24rem;
+    list-style-type: none;
+    padding: 0;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > ul > li{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    background-color: white !important;
+    color: black;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.content > ul > li > h3{
+    padding: 0;
+    margin: 0;
+}
